@@ -1,0 +1,57 @@
+html {
+    --margin: 50px;
+}
+
+#name {
+    height: 100px;
+    background-color: rgb(64, 0, 0, 0.9);
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+
+#columns {
+    margin-top: var(--margin);
+    display: flex;
+    gap: var(--margin);
+}
+
+#columns > div {
+    flex: 1;
+}
+
+#columns > div > *:not(:first-child) {
+    margin-top: var(--margin);
+}
+
+#lyrics-box {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.9);
+    white-space: pre;
+    font-family: monospace;
+}
+
+#download-box {
+    background-color: rgb(255, 255, 255, 0.9);
+    display: flex;
+    box-sizing: content-box;
+    padding: 30px;
+}
+
+#download-box > a {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+#play {
+    width: 100%;
+    background-color: red;
+}
+
+#cover {
+    width: 100%;
+    background-size: contain;
+}

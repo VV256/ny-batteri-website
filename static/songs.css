@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+#albums {
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#albums > div {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    white-space: normal;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#albums > div:not(:first-child) {
+    margin-left: 50px;
+}
+
+#albums > div > img {
+    position: absolute;
+    width: 100px;
+    right: 10px;
+    top: 10px;
+}

@@ -1,0 +1,8 @@
+body {
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 0px;
+    background-image: url("images/background.jpg");
+    background-size: 15%;
+    font-family: 'Comic Sans MS', sans-serif;
+}
