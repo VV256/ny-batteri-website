@@ -1,10 +1,11 @@
 {
-  "name": "website",
+  "name": "ny-batteri-website",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./static --port 1777 -c-1"
+    "start": "http-server ./static --port 80",
+    "dev": "http-server ./static --port 1777 -c-1"
   },
   "keywords": [],
   "author": "",
